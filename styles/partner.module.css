@@ -3,10 +3,31 @@
     display: grid;
     grid-template-columns: 80% 20%;
 
+    
     padding: 10rem;
     padding-top : 3rem;
 
 }
 
 
+.partnerHolder {
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    gap: 90px;
 
+    padding: 90px;
+    padding-left : 0px;
+
+
+}
+
+.PartnerHeadingContainer {
+    display: flex;
+}
+
+.PartnerHeading {
+    font-size: 5rem;
+    position: relative;
+
+    right: 80px;
+}

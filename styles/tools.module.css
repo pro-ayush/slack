@@ -1,0 +1,38 @@
+
+.Tools {
+    background-color: bisque;
+
+    padding: 10rem;
+    padding-top:3rem;
+}
+
+.StacksHolder {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+        gap: 50px;
+}
+
+.toolCard {
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 30ch;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.toolCardHeading {
+    font-size: 1.2rem;
+}
+

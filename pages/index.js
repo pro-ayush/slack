@@ -6,6 +6,8 @@ import Navbar from '../components/nav';
 import Main from '../components/main';
 import Services from '../components/Services';
 import Partner from '../components/partners';
+import Tools from '../components/tools';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
@@ -45,6 +47,15 @@ export default function Home() {
       <section>
         <Partner />
       </section>
+
+      <section>
+        <Tools />
+      </section>
+      
+
+      <footer>
+        <Footer />
+      </footer>
 
       
     </div>

@@ -22,7 +22,7 @@ function Main() {
   return (
     <React.Fragment>
       <div className={styles.textContainer}>
-        <h1 className={styles.HeroHeading}>Web Apps as Quick as possible with Next.js</h1>
+        <h1 className={styles.HeroHeading}>Web Apps as Quick as possible with Ayush.js</h1>
         <p className={styles.HeroDesc}>
           Slack is a messenger service for Workign Professionals looking for a
           Non Distractive Chat App
@@ -33,13 +33,6 @@ function Main() {
 
       <div className={styles.ImageContainer}>
         <motion.div initial={{y:500}} animate={{y:0}} transition={{duration:1}} className={styles.imageHolder}>
-          {/* <Image
-            className={styles.HeroImage}
-            src={"/resources/animation.gif"}
-            width={600}
-            height={600}
-            alt="Hero Image"
-          /> */}
           <Lottie options={defaultOptions} width={600} height={500} />
  
         </motion.div>

@@ -1,0 +1,59 @@
+
+
+.icon {
+    font-size: 2rem;
+    /* background-color: bisque; */
+    /* color: white; */
+    color: #E91E63;
+
+    border-radius: 100px;
+}
+
+.SocialIconContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding-top:1rem;
+    padding-right: 10rem;
+    padding-left : 10rem;
+
+    border : 1px solid black;
+}
+
+.SocialIcons {
+    position: relative;
+
+    right: 80px;
+}
+
+.icon {
+    margin-right: 10px;
+    margin-left : 10px;
+
+}
+
+.FooterOptions {
+
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 3rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+
+}
+
+.copyright {
+    display: flex;
+    padding-left : 10rem;
+    justify-content: center;
+
+    border:1px solid black;
+}
+
+.copyrightText {
+    padding-left: 30px;
+}
+
