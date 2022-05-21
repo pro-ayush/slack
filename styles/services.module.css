@@ -1,0 +1,22 @@
+
+
+.ServiceContainer {
+    padding : 10rem;
+    padding-top:3rem;
+    
+
+    background-color: bisque;
+    width: 100%;
+
+    /* text-align: center; */
+
+}
+
+.CardHolder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 2rem;
+
+    /* background-color: bisque; */
+
+}

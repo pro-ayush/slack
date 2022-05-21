@@ -1,0 +1,92 @@
+.CompactCard {
+  background-color: white;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  box-shadow: 12px 10px 40px -20px rgba(0, 0, 0, 0.92);
+  -webkit-box-shadow: 12px 10px 40px -20px rgba(0, 0, 0, 0.92);
+  -moz-box-shadow: 12px 10px 40px -20px rgba(0, 0, 0, 0.92);
+}
+
+.CardDescription {
+  width: 500px;
+  padding: 20px;
+}
+
+/* Expandable Card */
+
+.CardCover {
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.ExpandedCard {
+  background-color: white;
+  border-radius: 20px;
+
+  position: fixed;
+  top: 20vh;
+  left: 40vh;
+
+  width: 60%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .Insider {
+    posit
+} */
+
+.ExpandedImage {
+  height: 90%;
+  width: auto;
+}
+
+.ExpandedHeading {
+  font-size: 3rem;
+  margin: 0px;
+  margin-top: 5rem;
+}
+
+.ExpandedDesc {
+  font-size: 1.2rem;
+}
+
+.ExpandedButton {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: 0px;
+
+  background-color: #d2691e;
+  color: white;
+}
+
+.CloseIcon {
+  position: fixed;
+
+  color: black;
+  font-size: 2rem;
+  right: 22%;
+  top: 25%;
+
+  background-color: white;
+  border-radius: 100px;
+  padding: 5px;
+}
